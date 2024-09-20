@@ -23,8 +23,8 @@ def generate_response_groq(api_key, model, prompt):
     return response.content
 
 def main():    
-    api_key = st.secrets.pytheo_groq.GROK_API_KEY
-    model = st.secrets.pytheo_groq.GROK_MODEL
+    api_key = st.secrets.pytheo_groq.GROQ_API_KEY
+    model = st.secrets.pytheo_groq.GROQ_MODEL
 
     st.title("🦜 Pytheo-groq")
 
